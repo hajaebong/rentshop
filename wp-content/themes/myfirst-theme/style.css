@@ -1,0 +1,200 @@
+/*
+Theme Name: My First Theme(최종)
+Theme URI: http://martian36.tistory.com
+Description: 내가 처음으로 만든 워드프레스 테마.
+Author: Venusian
+Author URI: http://martian36.tistory.com
+Version: 1.0
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style, custom-menu (optional)
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article, aside, hgroup, header, footer, figure, figcaption, nav, section {
+    display: block;
+}
+
+body {
+    width: 960px;
+    margin: 20px auto;
+    color: #333;
+    font-size: 15px;
+    background: url(images/back.png);
+}
+
+#head-container {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 20px;
+    background: #fff;
+}
+
+#content {
+    float: left;
+    width: 680px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.widget {
+    float: right;
+    width: 180px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+footer {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 20px;
+    background: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    height: 35px;
+    margin-bottom: 15px;
+    background: #444;
+    border-radius: 5px;
+}
+
+nav ul li {
+    display: inline;
+    position: relative;
+    float: left;
+}
+
+nav li a {
+    float: left;
+    text-align: center;
+    padding: 0px 20px;
+    line-height: 35px;
+    color: #ccc;
+}
+
+nav li a:hover {
+    color: #fff;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 35px;
+    display: none;
+    width: 168px;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 0;
+    border-top: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li a {
+    background: #fff;
+    color: #333;
+    font-size: 12px;
+    width: 138px;
+    line-height: 1.4em;
+    text-align: left;
+    padding: 10px 15px;
+}
+
+nav ul ul li a:hover {
+    color: #fff;
+    background: #444;
+}
+
+nav ul ul li:hover > ul {
+    display: block;
+    left: 100%;
+    top: 0;
+}
+
+.widget-box {
+    float: right;
+    width: 222px;
+}
+
+#wp-calendar {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-widget-container {
+    margin-right: -9px;
+}
+
+.footer-widget-container section {
+    float: left;
+    width: 291px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    margin: 10px 10px 10px 0px;
+}
+
+.content-widget {
+    float: right;
+    padding: 20px;
+}
+
+nav ul #menu-item-449 a:before {
+    content: "\f015";
+    color: #fff;
+    font-family: 'FontAwesome';
+    margin-right: 10px;
+}
+
+.edit-post-link a:before {
+    content: "\f044";
+    color: #000;
+    font-family: 'FontAwesome';
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
