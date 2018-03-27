@@ -76,3 +76,18 @@ ul.menu li:hover ul.sub-menu{
     width:100px;
     height:30px;
 }
+
+li#recent-posts-2 {
+    background-image: none;
+    list-style: none;
+}
+
+li#categories-3 {
+    background-image: none;
+    list-style: none;
+}
+
+li#search-3 {
+    background-image: none;
+    list-style: none;
+}

@@ -18,3 +18,13 @@
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
 
+<?php
+global $wpdb;
+$field_key="address";
+$field_value="12 Elm St";
+//$result=$wpdb->query($wpdb->prepare("INSERT INTO {$wpdb->prefix}my_custom_table ( id, field_key, field_value ) VALUES ( %d, %s, %s )",10, $field_key, $field_value));
+//echo $result;
+//$wpdb->show_errors();
+//$result=$wpdb->query($wpdb->prepare("delete from {$wpdb->prefix}my_custom_table where id='1' and field_key='address'"));
+//$wpdb->print_error();
+?>
