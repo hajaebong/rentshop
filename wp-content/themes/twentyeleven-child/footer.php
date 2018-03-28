@@ -11,8 +11,8 @@
 ?>
 
 	</div><!-- #main -->
-
-	<footer id="colophon" role="contentinfo">
+    </div>
+	<footer id="colophon" role="contentinfo" class="span12">
 
 			<?php
 				/*
@@ -27,7 +27,7 @@
 				<?php do_action( 'twentyeleven_credits' ); ?>
 				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyeleven' ), 'WordPress' ); ?></a>
 			</div>
-	</footer><!-- #colophon -->
+	</footer><!-- #colophon --></div></div>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

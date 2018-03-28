@@ -27,4 +27,8 @@ $field_value="12 Elm St";
 //$wpdb->show_errors();
 //$result=$wpdb->query($wpdb->prepare("delete from {$wpdb->prefix}my_custom_table where id='1' and field_key='address'"));
 //$wpdb->print_error();
+//총 코멘트수를 카운터 해서 보여주는 방법
+//$comments="comments";
+//$comment_count=$wpdb->get_var($wpdb->prepare("select count(*) from $wpdb->comments order BY 'user_id'=%s",'*'));
+//echo '<p>Total comments:'.$comment_count.'</p>'
 ?>

@@ -68,8 +68,9 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed">
-	<header id="branding" role="banner">
+<div id="page" class="hfeed container">
+    <div class="container"><div class="row">
+	<header id="branding" role="banner" class="sapn12">
 			<hgroup>
 				<h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
 				<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
@@ -139,7 +140,8 @@
 				<?php /* Our navigation menu. If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assigned to the primary location is the one used. If one isn't assigned, the menu with the lowest ID is used. */ ?>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			</nav><!-- #access -->
-	</header><!-- #branding -->
+    </header><!-- #branding -->
+        </div></div>
 
-
-	<div id="main">
+    <div class="container">
+	<div id="main" class="row">

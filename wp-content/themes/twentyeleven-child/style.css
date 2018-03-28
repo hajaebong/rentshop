@@ -16,3 +16,9 @@ Template: twentyeleven
 -------------------------------------------------------------- */
 
 @import url(assets/css/bootstrap.css);
+
+body{
+    margin:15px;
+    font-family: "Nanum Gothic";
+    font-size: 15px;
+}
