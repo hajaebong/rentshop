@@ -38,7 +38,6 @@ if ( !defined('ABSPATH') ) {
  *
  * Returns the uncached `doing_cron` transient.
  *
- *
  * @ignore
  * @since 3.3.0
  *
