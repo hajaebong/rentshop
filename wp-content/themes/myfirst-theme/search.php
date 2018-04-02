@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+-----------여긴 search.php 입니다.--------------
     <div id="content">
         <?php if ( have_posts() ) : ?>
             <h2 id="search-title">검색결과</h2>

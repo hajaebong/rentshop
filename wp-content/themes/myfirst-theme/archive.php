@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+----------------------여긴 아카이브.php입니다,---------------------
     <div id="content">
         <?php if ( have_posts() ) : ?>
             <?php if (is_category()) { ?>

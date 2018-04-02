@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+-------------------여긴 single.php입니다.--------------------
     <div id="content">
         <?php if ( have_posts() ) : ?>
 

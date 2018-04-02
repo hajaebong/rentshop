@@ -2,7 +2,7 @@
 <div id="content">
 	<p>테마만들기 시험중 테마명 하재봉테마</p>	
 	<p>이미지 추가 시험</p>
-	<img src="http://localhost/wordpress/wp-content/themes/index-1/images/apple.jpg" alt="">
+	<img src="http://wptest.com/wp-content/themes/index-1/images/apple.jpg" alt="">
 	<hr>
 	<?php
 	if(have_posts()):

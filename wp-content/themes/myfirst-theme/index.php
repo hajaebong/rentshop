@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+-------여기는 index.php 입니다.-------------------------
     <div id="content">
 		<?php if ( have_posts() ) : ?>
 
