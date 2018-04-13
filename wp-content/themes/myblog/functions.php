@@ -2,6 +2,10 @@
 function myblog_setup() {
 	add_theme_support( 'title-tag' );
 	add_theme_support( 'automatic-feed-links' );
+	register_nav_menus( array(
+		'main_menu'   => 'Main Menu',
+		'footer_menu' => 'Footer Menu'
+	) );
 }
 
 add_action( 'after_setup_theme', 'myblog_setup' );
@@ -12,10 +16,6 @@ function myblog_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'myblog_scripts' );
 
-register_nav_menus( array(
-	'main_menu'   => 'Main Menu',
-	'footer_menu' => 'Footer Menu'
-) );
 
 function pagination() {
 	global $wp_query;
@@ -33,12 +33,14 @@ function pagination() {
 
 function jb_blog_widgets_init(){
 	register_sidebar(array(
-		'name'=>__('Sidebar1'),
+		'name'=>__('나의블로그사이드바'),
+		'id'=>'sidebar-1',
 		'before_widget'=>'<div class="jb-sidebar">',
 		'after_widget'=>'</div>',
 		'before_title'=>'<h2>',
 		'after_title'=>'</h2>',
 	));
 }
+
 add_action('widgets_init','jb_blog_widgets_init');
 ?>
